@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "gymName": "IronTrack",
+  "updatedAt": "2026-11-24",
+  "routines": [
+    {
+      "id": "ppl-hypertrophy",
+      "title": "Push Pull Legs · Hipertrofia",
+      "subtitle": "Enfoque estético, volumen óptimo y sobrecarga progresiva",
+      "level": "Intermedio",
+      "durationMinutes": 55,
+      "daysPerWeek": 3,
+      "muscleFocus": ["Pecho", "Espalda", "Pierna"],
+      "coverImageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/routines/ppl.png",
+      "days": [
+        {
+          "dayNumber": 1,
+          "name": "Día 1 · Empuje (Pecho, Hombro, Tríceps)",
+          "exercises": [
+            {
+              "exerciseId": "bench-press-barbell",
+              "name": "Press de banca con barra",
+              "muscleGroup": "Pecho",
+              "equipment": "Barra",
+              "sets": 4,
+              "reps": "8-10",
+              "restSeconds": 120,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/bench_press.gif",
+              "tips": [
+                "Mantén las escápulas retraídas y firmes contra el banco.",
+                "Controla la fase excéntrica bajando en 2-3 segundos."
+              ]
+            },
+            {
+              "exerciseId": "incline-dumbbell-press",
+              "name": "Press inclinado con mancuernas",
+              "muscleGroup": "Pecho",
+              "equipment": "Mancuernas",
+              "sets": 3,
+              "reps": "10-12",
+              "restSeconds": 90,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/incline_db_press.gif",
+              "tips": [
+                "Ajusta el banco a 30° para priorizar la porción clavicular.",
+                "Evita chocar las mancuernas arriba; mantén tensión constante."
+              ]
+            },
+            {
+              "exerciseId": "lateral-raise-cable",
+              "name": "Elevaciones laterales en polea",
+              "muscleGroup": "Hombro",
+              "equipment": "Polea",
+              "sets": 4,
+              "reps": "12-15",
+              "restSeconds": 60,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/lateral_raise.gif",
+              "tips": [
+                "Lidera el movimiento con los codos, no con las muñecas.",
+                "Detente a la altura de los hombros sin balancear el torso."
+              ]
+            },
+            {
+              "exerciseId": "triceps-rope-pushdown",
+              "name": "Extensión de tríceps con cuerda",
+              "muscleGroup": "Brazos",
+              "equipment": "Polea",
+              "sets": 3,
+              "reps": "12-15",
+              "restSeconds": 60,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/triceps_pushdown.gif",
+              "tips": [
+                "Pega los codos a los costados durante todo el recorrido.",
+                "Separa la cuerda al final para máxima contracción."
+              ]
+            }
+          ]
+        },
+        {
+          "dayNumber": 2,
+          "name": "Día 2 · Tirón (Espalda, Posterior, Bíceps)",
+          "exercises": [
+            {
+              "exerciseId": "lat-pulldown",
+              "name": "Jalón al pecho agarre neutro",
+              "muscleGroup": "Espalda",
+              "equipment": "Máquina",
+              "sets": 4,
+              "reps": "10-12",
+              "restSeconds": 90,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/lat_pulldown.gif",
+              "tips": [
+                "Inicia bajando los hombros antes de flexionar los codos.",
+                "Lleva la barra hacia la parte alta del pecho."
+              ]
+            },
+            {
+              "exerciseId": "chest-supported-row",
+              "name": "Remo en máquina con apoyo al pecho",
+              "muscleGroup": "Espalda",
+              "equipment": "Máquina",
+              "sets": 3,
+              "reps": "10-12",
+              "restSeconds": 90,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/supported_row.gif",
+              "tips": [
+                "Aprieta la espalda media durante 1 segundo al final.",
+                "No despegues el pecho del soporte."
+              ]
+            },
+            {
+              "exerciseId": "incline-dumbbell-curl",
+              "name": "Curl inclinado con mancuernas",
+              "muscleGroup": "Brazos",
+              "equipment": "Mancuernas",
+              "sets": 3,
+              "reps": "10-12",
+              "restSeconds": 60,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/incline_curl.gif",
+              "tips": [
+                "Deja colgar los brazos perpendiculares al suelo en la base.",
+                "Controla la bajada sin impulsar con el hombro."
+              ]
+            }
+          ]
+        },
+        {
+          "dayNumber": 3,
+          "name": "Día 3 · Pierna Completa",
+          "exercises": [
+            {
+              "exerciseId": "hack-squat",
+              "name": "Sentadilla Hack en máquina",
+              "muscleGroup": "Pierna",
+              "equipment": "Máquina",
+              "sets": 4,
+              "reps": "8-10",
+              "restSeconds": 120,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/hack_squat.gif",
+              "tips": [
+                "Coloca los pies a la anchura de los hombros y baja profundo.",
+                "Empuja con todo el pie manteniendo talones pegados."
+              ]
+            },
+            {
+              "exerciseId": "romanian-deadlift",
+              "name": "Peso muerto rumano con barra",
+              "muscleGroup": "Pierna",
+              "equipment": "Barra",
+              "sets": 3,
+              "reps": "8-10",
+              "restSeconds": 120,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/rdl.gif",
+              "tips": [
+                "Lleva la cadera hacia atrás manteniendo la barra pegada al cuerpo.",
+                "Espalda neutra en todo momento; detente al sentir estiramiento femoral."
+              ]
+            },
+            {
+              "exerciseId": "standing-calf-raise",
+              "name": "Elevación de talones de pie",
+              "muscleGroup": "Pierna",
+              "equipment": "Máquina",
+              "sets": 4,
+              "reps": "12-15",
+              "restSeconds": 60,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/calf_raise.gif",
+              "tips": [
+                "Haz una pausa de 1 segundo abajo para eliminar el rebote.",
+                "Sube lo más alto posible controlando el tobillo."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upper-lower-strength",
+      "title": "Upper / Lower · Fuerza Estética",
+      "subtitle": "4 días equilibrados para ganar fuerza en básicos y masa muscular",
+      "level": "Avanzado",
+      "durationMinutes": 65,
+      "daysPerWeek": 4,
+      "muscleFocus": ["Fuerza", "Torso", "Pierna"],
+      "coverImageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/routines/upper_lower.png",
+      "days": [
+        {
+          "dayNumber": 1,
+          "name": "Día 1 · Torso Fuerza",
+          "exercises": [
+            {
+              "exerciseId": "overhead-press",
+              "name": "Press militar de pie con barra",
+              "muscleGroup": "Hombro",
+              "equipment": "Barra",
+              "sets": 4,
+              "reps": "6-8",
+              "restSeconds": 120,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/ohp.gif",
+              "tips": [
+                "Aprieta glúteos y abdomen para evitar hiperextender la zona lumbar.",
+                "Empuja la barra en línea recta pasando cerca de la nariz."
+              ]
+            },
+            {
+              "exerciseId": "weighted-pullup",
+              "name": "Dominadas pronas",
+              "muscleGroup": "Espalda",
+              "equipment": "Peso corporal",
+              "sets": 4,
+              "reps": "6-10",
+              "restSeconds": 120,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/pullup.gif",
+              "tips": [
+                "Extiende completamente los codos abajo en cada repetición.",
+                "Piensa en llevar los codos hacia las caderas."
+              ]
+            }
+          ]
+        },
+        {
+          "dayNumber": 2,
+          "name": "Día 2 · Pierna Potencia",
+          "exercises": [
+            {
+              "exerciseId": "back-squat",
+              "name": "Sentadilla trasera con barra",
+              "muscleGroup": "Pierna",
+              "equipment": "Barra",
+              "sets": 4,
+              "reps": "5-6",
+              "restSeconds": 150,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/back_squat.gif",
+              "tips": [
+                "Respira profundo hacia el abdomen antes de descender (bracing).",
+                "Rodillas alineadas con la punta de los pies."
+              ]
+            },
+            {
+              "exerciseId": "seated-leg-curl",
+              "name": "Curl femoral sentado",
+              "muscleGroup": "Pierna",
+              "equipment": "Máquina",
+              "sets": 3,
+              "reps": "10-12",
+              "restSeconds": 75,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/leg_curl.gif",
+              "tips": [
+                "Ajusta el rodillo justo por encima del talón.",
+                "Controla el retorno sin soltar el peso de golpe."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "full-body-foundation",
+      "title": "Full Body · Base & Acondicionamiento",
+      "subtitle": "Ideal para dominar técnica, quemar calorías y ganar tono general",
+      "level": "Principiante",
+      "durationMinutes": 45,
+      "daysPerWeek": 3,
+      "muscleFocus": ["Cuerpo completo", "Core"],
+      "coverImageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/routines/full_body.png",
+      "days": [
+        {
+          "dayNumber": 1,
+          "name": "Sesión Única Alternada",
+          "exercises": [
+            {
+              "exerciseId": "goblet-squat",
+              "name": "Sentadilla Goblet con mancuerna",
+              "muscleGroup": "Pierna",
+              "equipment": "Mancuernas",
+              "sets": 3,
+              "reps": "10-12",
+              "restSeconds": 90,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/goblet_squat.gif",
+              "tips": [
+                "Sostén la mancuerna pegada al pecho con codos apuntando abajo.",
+                "Mantén el pecho erguido durante todo el descenso."
+              ]
+            },
+            {
+              "exerciseId": "machine-chest-press",
+              "name": "Press de pecho en máquina",
+              "muscleGroup": "Pecho",
+              "equipment": "Máquina",
+              "sets": 3,
+              "reps": "10-12",
+              "restSeconds": 75,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/machine_chest.gif",
+              "tips": [
+                "Alinea los agarres con la parte media del pecho.",
+                "Mantén hombros lejos de las orejas."
+              ]
+            },
+            {
+              "exerciseId": "dead-bug-core",
+              "name": "Dead Bug controlado",
+              "muscleGroup": "Core",
+              "equipment": "Peso corporal",
+              "sets": 3,
+              "reps": "12 por lado",
+              "restSeconds": 45,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/dead_bug.gif",
+              "tips": [
+                "Pega la zona lumbar al tapete en todo momento.",
+                "Exhala suavemente al extender brazo y pierna contrarios."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glute-core-sculpt",
+      "title": "Glúteo & Core · Esculpido",
+      "subtitle": "Enfoque posterior de alta precisión y estabilidad de zona media",
+      "level": "Intermedio",
+      "durationMinutes": 50,
+      "daysPerWeek": 3,
+      "muscleFocus": ["Pierna", "Core"],
+      "coverImageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/routines/glute_core.png",
+      "days": [
+        {
+          "dayNumber": 1,
+          "name": "Día 1 · Empuje de Cadera & Core",
+          "exercises": [
+            {
+              "exerciseId": "barbell-hip-thrust",
+              "name": "Hip Thrust con barra",
+              "muscleGroup": "Pierna",
+              "equipment": "Barra",
+              "sets": 4,
+              "reps": "10-12",
+              "restSeconds": 90,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/hip_thrust.gif",
+              "tips": [
+                "Barbilla ligeramente hacia el pecho al subir para evitar arquear la espalda.",
+                "Pausa de 1 segundo arriba apretando glúteos."
+              ]
+            },
+            {
+              "exerciseId": "cable-crunch",
+              "name": "Crunch abdominal en polea alta",
+              "muscleGroup": "Core",
+              "equipment": "Polea",
+              "sets": 3,
+              "reps": "12-15",
+              "restSeconds": 60,
+              "imageUrl": "https://raw.githubusercontent.com/alesr1704-glitch/irontrack-data/main/assets/exercises/cable_crunch.gif",
+              "tips": [
+                "Flexiona la columna llevando las costillas hacia la pelvis.",
+                "No jales con los brazos ni balancees la cadera."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
